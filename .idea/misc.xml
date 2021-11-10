@@ -5,6 +5,9 @@
       <map>
         <entry key="..\:/Users/EMINENCE/AndroidStudioProjects/KotLib/app/src/main/res/layout/activity_main.xml" value="0.21145833333333333" />
         <entry key="..\:/Users/EMINENCE/AndroidStudioProjects/KotLib/app/src/main/res/layout/fragment_home_page.xml" value="0.225" />
+        <entry key="..\:/Users/EMINENCE/AndroidStudioProjects/KotLib/app/src/main/res/layout/fragment_sign_in.xml" value="0.225" />
+        <entry key="..\:/Users/EMINENCE/AndroidStudioProjects/KotLib/app/src/main/res/layout/fragment_sign_up.xml" value="0.25" />
+        <entry key="..\:/Users/EMINENCE/AndroidStudioProjects/KotLib/app/src/main/res/layout/fragment_splash_screen.xml" value="0.25" />
       </map>
     </option>
   </component>
