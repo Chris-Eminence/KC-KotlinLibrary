@@ -2,12 +2,40 @@
     <string name="app_name">KotLib</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="library">Library</string>
-    <string name="kotlin">Kotlin</string>
+
     <string name="login_into_your_account">Login to your Account.</string>
     <string name="create_your_account">Create your Account.</string>
     <string name="or_sign_up_with">Or Sign Up with</string>
     <string name="or_sign_In_with">Or Sign In with</string>
     <string name="already_have_an_account">Don\'t have an Account? </string>
     <string name="sign_up"> Sign Up</string>
+    <string name="kotlin">Kotlin</string>
+    <string name="library">Library</string>
+    <string name="what_is_kotlin">What is Kotlin?</string>
+    <string name="over_view_of_kotlin">Kotlin is a modern, trending programming \nlanguage that was released in 2016 by JetBrains. \n\nIt has become very popular since it is compatible \nwith Java (one of the most popular programming \nlanguages out there), which means that Java \ncode (and libraries) can be used in Kotlin \nprograms.\n\nKotlin is used for: \n\n\t\t*\t\tMobile applications (specially Android apps)\n\t\t*\t\tWeb development \n\t\t*\t\tServer side applicationsData science\n\t\t*\t\tAnd much, much more!</string>
+    <string name="reason_to_use_kotlin">\n\t\t*\t\tKotlin is fully compatible with Java\n\t\t*\t\tKotlin works on different platforms (Windows, Mac, Linux, Raspberry Pi, etc.)\n\t\t*\t\tKotlin is concise and safe\n\t\t*\t\tKotlin is easy to learn, especially if you already know Java\n\t\t*\t\tKotlin is free to use\n\t\t*\t\tBig community/support</string>
+    <string name="get_started">Get Started</string>
+    <string name="get_started_text">\nThis tutorial will teach you the very basics of Kotlin.It is not necessary to have any prior programming experience.</string>
+    <string name="why_use_kotlin">Why Use Kotlin?</string>
+    <string name="syntax_definition">\nSyntax is like a set of rule that every programming languages uses to communicate with with the compiler and carryout major instructions</string>
+    <string name="example_explanations">The fun keyword is used to declare a function. A function is a block of code designed to perform a particular task. In the example above, it declares the main() function.\n\nThe main() function is something you will see in every Kotlin program. This function is used to execute code. Any code inside the main() function\'s curly brackets {} will be executed.\n\nFor example, the println() function is inside the main() function, meaning that this will be executed. The println() function is used to output/print text, and in our example it will output Hello World</string>
+    <string name="example_explained">Example explained</string>
+    <string name="main_parameters_explained"><![CDATA[Before Kotlin version 1.3, it was required to use the main() function with parameters, like: fun main(args : Array<String>). The example above had to be written like this to work:]]></string>
+    <string name="notes">This is no longer required, and the program will run fine without it. However, it will not do any harm if you have been using it in the past, and will continue to use it.</string>
+    <string name="note">Note:</string>
+    <string name="comments">Comments can be used to explain Kotlin code, and to make it more readable. It can also be used to prevent execution when testing alternative code.</string>
+    <string name="single_line_comment">Single-line comments starts with two forward slashes (//).\n\nAny text between // and the end of the line is ignored by Kotlin (will not be executed).\n\nThis example uses a single-line comment before a line of code:</string>
+    <string name="tag">This example uses a single-line comment at the end of a line of code:</string>
+    <string name="multi_line_explained">Multi-line comments start with /* and ends with */.\n\nAny text between /* and */ will be ignored by Kotlin.\n\nThis example uses a multi-line comment (a comment block) to explain the code:</string>
+    <string name="variable_explained">Variables are containers for storing data values. \nTo create a variable, use var or val, and assign a value to it with the equal sign (=):</string>
+    <string name="var_and_val">The difference between var and val is that variables declared with the var keyword can be changed/modified, while val variables cannot.</string>
+    <string name="unlike_many">Unlike many other programming languages, variables in Kotlin do not need to be declared with a specified type (like String for text or Int for numbers, if you are familiar with those)\n\nTo create a variable in Kotlin that should store text and another that should store a number, look at the following example:</string>
+    <string name="kotlin_smart">Kotlin is smart enough to understand that John is a String (text), and that 1975 is an Int (number) variable.</string>
+    <string name="note_on_val">When you create a variable with the val keyword, the value cannot be changed/reassigned./n/nThe following example will generate an error:</string>
+    <string name="when_using_var">When using var, you can change the value whenever you want:</string>
+    <string name="the_val_keyword">The val keyword is useful when you want a variable to always store the same value, like PI (3.14159...):</string>
+    <string name="display_variables_explained">Like you have seen with the examples above, the println() method is often used to display variables.\n\nTo combine both text and a variable, use the + character:</string>
+    <string name="you_can_use">You can also use the + character to add a variable to another variable:</string>
+    <string name="for_numeric">For numeric values, the + character works as a mathematical operator:</string>
+    <string name="variable_naming">A variable can have a short name (like x and y) or more descriptive names (age, sum, totalVolume).\n\nThe general rule for Kotlin variables are:\n\t\t*\t\tNames can contain letters, digits, underscores, and dollar signs\n\t\t*\t\tNames should start with a letter\n\t\t*\t\tNames can also begin with $ and _ (but we will not use it in this tutorial)\n\t\t*\t\tNames are case sensitive (myVar and myvar are different variables)\n\t\t*\t\tNames should start with a lowercase letter and it cannot contain whitespace\n\t\t*\t\tReserved words (like Kotlin keywords, such as var or String) cannot be used as names</string>
 </resources>

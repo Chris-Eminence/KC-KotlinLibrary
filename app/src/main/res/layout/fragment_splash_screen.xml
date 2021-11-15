@@ -13,16 +13,24 @@
         android:layout_height="150dp"
         app:srcCompat="@drawable/kotlinlogo"/>
 
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textColor="@color/kotlin_text_color"
-        android:text="Kotlin"/>
+        android:text="@string/kotlin"/>
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textColor="@color/learn_text_color"
-        android:text="Library"/>
+        android:text="@string/library"/>
+
+    </LinearLayout>
+
 </LinearLayout>
