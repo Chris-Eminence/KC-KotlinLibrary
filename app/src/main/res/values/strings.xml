@@ -38,4 +38,14 @@
     <string name="you_can_use">You can also use the + character to add a variable to another variable:</string>
     <string name="for_numeric">For numeric values, the + character works as a mathematical operator:</string>
     <string name="variable_naming">A variable can have a short name (like x and y) or more descriptive names (age, sum, totalVolume).\n\nThe general rule for Kotlin variables are:\n\t\t*\t\tNames can contain letters, digits, underscores, and dollar signs\n\t\t*\t\tNames should start with a letter\n\t\t*\t\tNames can also begin with $ and _ (but we will not use it in this tutorial)\n\t\t*\t\tNames are case sensitive (myVar and myvar are different variables)\n\t\t*\t\tNames should start with a lowercase letter and it cannot contain whitespace\n\t\t*\t\tReserved words (like Kotlin keywords, such as var or String) cannot be used as names</string>
+    <string name="specify">However, you learned from the previous chapter that it is possible to specify the type if you want:</string>
+    <string name="in_kotlin">In Kotlin, the type of a variable is decided by its value:</string>
+    <string name="sometimes">Sometimes you have to specify the type, and often you don\'t. Anyhow, it is good to know what the different types represent.You will learn more about when you need to specify the type later.</string>
+    <string name="data_types_type">Data types are divided into different groups:\n\n\t\t*\t\tNumbers\n\t\t*\t\tCharacters\n\t\t*\t\tBooleans\n\t\t*\t\tStrings\n\t\t*\t\tArrays</string>
+    <string name="numbers_explained">Number types are divided into two groups:\n\nInteger types store whole numbers, positive or negative (such as 123 or -456), without decimals. Valid types are Byte, Short, Int and Long.\n\nFloating point types represent numbers with a fractional part, containing one or more decimals. There are two types: Float and Double.\n\nIf you don\'t specify the type for a numeric variable, it is most often returned as Int for whole numbers and Double for floating point numbers.</string>
+    <string name="integer_type_s">Byte\n\nThe Byte data type can store whole numbers from -128 to 127. This can be used instead of Int or other integer types to save memory when you are certain that the value will be within -128 and 127:</string>
+    <string name="the_short">The Short data type can store whole numbers from -32768 to 32767:</string>
+    <string name="int_explained">The Int data type can store whole numbers from -2147483648 to 2147483647:</string>
+    <string name="long_ex">The Long data type can store whole numbers from -9223372036854775808 to 9223372036854775808. This is used when Int is not large enough to store the value. Optionally, you can end the value with an L:</string>
+    <string name="diff">A whole number is an Int as long as it is up to 2147483647. If it goes beyond that, it is defined as Long:</string>
 </resources>

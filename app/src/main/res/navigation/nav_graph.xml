@@ -16,6 +16,12 @@
         <action
             android:id="@+id/action_splashScreenFragment_to_homePageFragment"
             app:destination="@id/homePageFragment" />
+        <action
+            android:id="@+id/action_splashScreenFragment_to_variables"
+            app:destination="@id/variables" />
+        <action
+            android:id="@+id/action_splashScreenFragment_to_commments"
+            app:destination="@id/commments" />
     </fragment>
     <fragment
         android:id="@+id/signInFragment"
@@ -38,5 +44,66 @@
     <fragment
         android:id="@+id/homePageFragment"
         android:name="com.example.kotlib.fragments.HomePageFragment"
-        android:label="HomePageFragment" />
+        android:label="HomePageFragment" >
+        <action
+            android:id="@+id/action_homePageFragment_to_whatIsKotlin"
+            app:destination="@id/whatIsKotlin" />
+        <action
+            android:id="@+id/action_homePageFragment_to_variables"
+            app:destination="@id/variables" />
+        <action
+            android:id="@+id/action_homePageFragment_to_basicSyntax"
+            app:destination="@id/basicSyntax" />
+        <action
+            android:id="@+id/action_homePageFragment_to_dataType"
+            app:destination="@id/dataType" />
+        <action
+            android:id="@+id/action_homePageFragment_to_commments"
+            app:destination="@id/commments" />
+    </fragment>
+    <fragment
+        android:id="@+id/basicSyntax"
+        android:name="com.example.kotlib.fragment_tutorial.BasicSyntax"
+        android:label="fragment_basic_syntax"
+        tools:layout="@layout/fragment_basic_syntax" >
+        <action
+            android:id="@+id/action_basicSyntax_to_homePageFragment"
+            app:destination="@id/homePageFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/commments"
+        android:name="com.example.kotlib.fragment_tutorial.commments"
+        android:label="fragment_commments"
+        tools:layout="@layout/fragment_commments" >
+        <action
+            android:id="@+id/action_commments_to_homePageFragment"
+            app:destination="@id/homePageFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/dataType"
+        android:name="com.example.kotlib.fragment_tutorial.DataType"
+        android:label="fragment_data_type"
+        tools:layout="@layout/fragment_data_type" >
+        <action
+            android:id="@+id/action_dataType_to_homePageFragment"
+            app:destination="@id/homePageFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/variables"
+        android:name="com.example.kotlib.fragment_tutorial.Variables"
+        android:label="fragment_variables"
+        tools:layout="@layout/fragment_variables" >
+        <action
+            android:id="@+id/action_variables_to_homePageFragment"
+            app:destination="@id/homePageFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/whatIsKotlin"
+        android:name="com.example.kotlib.fragment_tutorial.WhatIsKotlin"
+        android:label="fragment_what_is_kotlin"
+        tools:layout="@layout/fragment_what_is_kotlin" >
+        <action
+            android:id="@+id/action_whatIsKotlin_to_homePageFragment"
+            app:destination="@id/homePageFragment" />
+    </fragment>
 </navigation>
