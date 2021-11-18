@@ -63,7 +63,7 @@
     </fragment>
     <fragment
         android:id="@+id/basicSyntax"
-        android:name="com.example.kotlib.fragment_tutorial.BasicSyntax"
+        android:name="com.example.kotlib.tutorial.BasicSyntax"
         android:label="fragment_basic_syntax"
         tools:layout="@layout/fragment_basic_syntax" >
         <action
@@ -72,7 +72,7 @@
     </fragment>
     <fragment
         android:id="@+id/commments"
-        android:name="com.example.kotlib.fragment_tutorial.commments"
+        android:name="com.example.kotlib.tutorial.commments"
         android:label="fragment_commments"
         tools:layout="@layout/fragment_commments" >
         <action
@@ -81,7 +81,7 @@
     </fragment>
     <fragment
         android:id="@+id/dataType"
-        android:name="com.example.kotlib.fragment_tutorial.DataType"
+        android:name="com.example.kotlib.tutorial.DataType"
         android:label="fragment_data_type"
         tools:layout="@layout/fragment_data_type" >
         <action
@@ -90,7 +90,7 @@
     </fragment>
     <fragment
         android:id="@+id/variables"
-        android:name="com.example.kotlib.fragment_tutorial.Variables"
+        android:name="com.example.kotlib.tutorial.Variables"
         android:label="fragment_variables"
         tools:layout="@layout/fragment_variables" >
         <action
@@ -99,7 +99,7 @@
     </fragment>
     <fragment
         android:id="@+id/whatIsKotlin"
-        android:name="com.example.kotlib.fragment_tutorial.WhatIsKotlin"
+        android:name="com.example.kotlib.tutorial.WhatIsKotlin"
         android:label="fragment_what_is_kotlin"
         tools:layout="@layout/fragment_what_is_kotlin" >
         <action

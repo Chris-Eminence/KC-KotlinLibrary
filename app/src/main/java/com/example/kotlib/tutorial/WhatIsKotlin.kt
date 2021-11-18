@@ -1,4 +1,4 @@
-package com.example.kotlib.fragment_tutorial
+package com.example.kotlib.tutorial
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
