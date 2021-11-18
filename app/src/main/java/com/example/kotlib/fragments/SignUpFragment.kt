@@ -5,10 +5,12 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.Toast
 import androidx.navigation.NavController
 import androidx.navigation.NavHostController
 import androidx.navigation.Navigation.findNavController
 import androidx.navigation.fragment.NavHostFragment
+import com.example.kotlib.R
 import com.example.kotlib.databinding.FragmentSignUpBinding
 
 class SignUpFragment : Fragment() {
@@ -30,7 +32,21 @@ class SignUpFragment : Fragment() {
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
-
+        binding.signInButton.setOnClickListener {
+            navCon.navigate(R.id.action_signUpFragment_to_signInFragment)
+        }
+        binding.alreadHaveAnAccount.setOnClickListener {
+            navCon.navigate(R.id.action_signUpFragment_to_signInFragment)
+        }
+        binding.googleSignIn.setOnClickListener {
+            Toast.makeText(activity, "Google Authentication, Still in progress", Toast.LENGTH_SHORT).show()
+        }
+        binding.facebookSignIn.setOnClickListener {
+            Toast.makeText(activity, "Facebook Authentication, Still in progress", Toast.LENGTH_SHORT).show()
+        }
+        binding.twitterSignIn.setOnClickListener {
+            Toast.makeText(activity, "Twitter Authentication, Still in progress", Toast.LENGTH_SHORT).show()
+        }
     }
 }
 

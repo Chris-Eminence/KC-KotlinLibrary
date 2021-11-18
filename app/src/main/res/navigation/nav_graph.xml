@@ -31,6 +31,9 @@
         <action
             android:id="@+id/action_signInFragment_to_signUpFragment"
             app:destination="@id/signUpFragment" />
+        <action
+            android:id="@+id/action_signInFragment_to_homePageFragment"
+            app:destination="@id/homePageFragment" />
     </fragment>
     <fragment
         android:id="@+id/signUpFragment"
@@ -60,6 +63,12 @@
         <action
             android:id="@+id/action_homePageFragment_to_commments"
             app:destination="@id/commments" />
+        <action
+            android:id="@+id/action_homePageFragment_to_commments2"
+            app:destination="@id/commments" />
+        <action
+            android:id="@+id/action_homePageFragment_to_dataType2"
+            app:destination="@id/dataType" />
     </fragment>
     <fragment
         android:id="@+id/basicSyntax"
@@ -72,7 +81,7 @@
     </fragment>
     <fragment
         android:id="@+id/commments"
-        android:name="com.example.kotlib.tutorial.commments"
+        android:name="com.example.kotlib.tutorial.Comments"
         android:label="fragment_commments"
         tools:layout="@layout/fragment_commments" >
         <action
